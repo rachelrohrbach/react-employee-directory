@@ -10,6 +10,7 @@ function Employees(props) {
     const formattedDate = [month, day, year].join('-');
     return formattedDate;
   }
+
   return (
     <tbody>
       {props.employees.map((employee) => (
