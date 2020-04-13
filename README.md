@@ -11,7 +11,7 @@
 ## General Information
 This application is an employee directory created with React. It allows the user to view employee information including an image, first and last name, phone number, email and date of birth (DOB)in a table format. The user has the ability to sort the employees by first name or DOB in descending order or search the employee table by part of their name and/or a starting and ending DOB.  
 
-You can view the deployed application here: 
+You can view the deployed application here: https://rachelrohrbach.github.io/react-employee-directory/
 
 Alternatively, the application can be run locally by running following command in the terminal to install the dependencies required:
 ```sh
