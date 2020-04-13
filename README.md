@@ -35,9 +35,7 @@ This project is created with:
 * CSS
 * Bootstrap
 
-## Screenshots
-![app screenshot](./public/assets/images/app-screenshot.png)
-
+## Screenshot
 ![app gif](./public/assets/images/app-demo.gif)
 
 
