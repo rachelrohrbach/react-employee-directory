@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Employee Directory
 
-## Available Scripts
+## Table of Contents
+* [General Information](#general-information)
+* [User Story](user-story)
+* [Technologies](#technologies)
+* [Screenshot](#screenshot)
+* [Credits](#credits)
+* [License](#license)
 
-In the project directory, you can run:
+## General Information
+This application is an employee directory created with React. It allows the user to view employee information including an image, first and last name, phone number, email and date of birth (DOB)in a table format. The user has the ability to sort the employees by first name or DOB in descending order or search the employee table by part of their name and/or a starting and ending DOB.  
 
-### `npm start`
+## User Story
+As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies
+This project is created with: 
+* React 
+* Node.js 
+* JSX
+* JavaScript
+* HTML
+* CSS
+* Bootstrap
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Screenshots
+![app screenshot](./public/assets/images/app-screenshot.png)
 
-### `npm test`
+![app gif](./public/assets/images/app-demo.gif)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Credits
+I used Random User Generator API (https://randomuser.me/) to create the fake employee data. I also consulted React (https://reactjs.org/), MDN Web Docs (https://developer.mozilla.org/en-US/), Stack Overflow (www.stackoverflow.com), and the GitLab repository from my course extensively in creating this application. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+MIT License
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Copyright (c) [2020] [Rachel Rohrbach]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
